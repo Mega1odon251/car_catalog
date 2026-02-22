@@ -6,8 +6,8 @@ CREATE TABLE cars (
     color TEXT,
     price NUMERIC(10, 2)
 );
-INSERT INTO cars (brand, model, year, color, price) VALUES
-('Toyota', 'Camry', 2020, 'Silver', 1500000.00),
-('BMW', 'X5', 2022, 'Black', 4500000.50),
-('Lada', 'Vesta', 2021, 'White', 800000.00);
+INSERT INTO cars (brand, model, year, price, color) VALUES
+('Toyota', 'Camry', 2020, 1500000.00, 'Silver'),
+('BMW', 'X5', 2022, 4500000.50, 'Black'),
+('Lada', 'Vesta', 2021, 800000.00, 'White');
 
