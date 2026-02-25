@@ -1,5 +1,3 @@
-ALTER TABLE cars ADD COLUMN color VARCHAR(30);
-
 INSERT INTO cars (brand, model, year, price, color) VALUES
 ('Ford', 'Focus', 2019, 850000, 'silver'),
 ('Hyundai', 'Sonata', 2021, 2100000, 'white'),
