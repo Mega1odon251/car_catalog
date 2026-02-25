@@ -11,5 +11,7 @@ INSERT INTO cars (brand, model, year, price, color) VALUES
 ('Lada', 'Vesta', 2024, 1200000, 'white');
 
 SELECT * FROM cars;
+
 SELECT color, AVG(price) FROM cars GROUP BY color;
+
 SELECT brand, COUNT(*) FROM cars GROUP BY brand;
